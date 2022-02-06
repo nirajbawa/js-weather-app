@@ -4,7 +4,7 @@ let temp = document.getElementById("tem")
 let whename = document.getElementById("whename")
 let query = document.getElementById("search")
 let inte = document.getElementById("inte")
-let imagelink = "/js-weather-app/Image/"
+let imagelink = "/js-weather-app/Image/";
 
 
 function formatAMPM(date) {
