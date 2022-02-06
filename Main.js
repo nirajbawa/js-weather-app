@@ -63,7 +63,7 @@ window.addEventListener("load", () => {
               image.src = imagelink+"clouds.svg";
             }
             if (id == 802) {
-              image.src = = imagelink+"Onlyclouds.svg";
+              image.src = imagelink+"Onlyclouds.svg";
             }
             if (id >= 803) {
               image.src = imagelink+"Blackclouds.svg";
