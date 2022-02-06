@@ -4,7 +4,7 @@ let temp = document.getElementById("tem")
 let whename = document.getElementById("whename")
 let query = document.getElementById("search")
 let inte = document.getElementById("inte")
-let image src = "/js-weather-app/Image/"
+let imagelink = "/js-weather-app/Image/"
 
 
 function formatAMPM(date) {
@@ -57,60 +57,60 @@ window.addEventListener("load", () => {
 
           if (form >= 5 && form <= 16) {
             if (id <= 800) {
-              image.src = src+"sun.svg";
+              image.src = imagelink+"sun.svg";
             }
             if (id == 801) {
-              image.src = src+"clouds.svg";
+              image.src = imagelink+"clouds.svg";
             }
             if (id == 802) {
-              image.src = "../image/Onlyclouds.svg"
+              image.src = = imagelink+"Onlyclouds.svg";
             }
             if (id >= 803) {
-              image.src = "../image/Blackclouds.svg"
+              image.src = imagelink+"Blackclouds.svg";
             }
             if (id >= 300 && id <= 321) {
-              image.src = "../image/Rainclouda.svg"
+              image.src = imagelink+"Rainclouda.svg";
             }
             if (id >= 200 && id <= 232) {
-              image.src = "../image/thunderstorm.svg"
+              image.src = imagelink+"thunderstorm.svg";
             }
             if (id >= 500 && id <= 504) {
-              image.src = "../image/snowy.svg"
+              image.src = imagelink+"snowy.svg";
             }
             if (id >= 600 && id <= 622) {
-              image.src = "../image/snowflake.svg"
+              image.src = imagelink+"snowflake.svg";
             }
             if (id >= 701 && id <= 622) {
-              image.src = "../image/mist.svg"
+              image.src = imagelink+"mist.svg";
             }
           }
           else if (form > 18 && form < 5) {
             if (id <= 800) {
-              image.src = "../image/moon.svg"
+              image.src = imagelink+"moon.svg";
             }
             if (id == 801) {
-              image.src = "../image/haze.svg"
+              image.src = imagelink+"haze.svg";
             }
             if (id == 802) {
-              image.src = "../image/Onlyclouds.svg"
+              image.src = imagelink+"Onlyclouds.svg";
             }
             if (id >= 803) {
-              image.src = "../image/Blackclouds.svg"
+              image.src = imagelink+"Blackclouds.svg";
             }
             if (id >= 300 && id <= 321) {
-              image.src = "../image/Rainclouda.svg"
+              image.src = imagelink+"Rainclouda.svg";
             }
             if (id >= 200 && id <= 232) {
-              image.src = "../image/thunderstorm.svg"
+              image.src = imagelink+"thunderstorm.svg";
             }
             if (id >= 500 && id <= 504) {
-              image.src = "../image/snowy.svg"
+              image.src = imagelink+"snowy.svg";
             }
             if (id >= 600 && id <= 622) {
-              image.src = "../image/snowflake.svg"
+              image.src = imagelink+"snowflake.svg";
             }
             if (id >= 701 && id <= 622) {
-              image.src = "../image/mist.svg"
+              image.src = imagelink+"mist.svg";
             }
           }
 
