@@ -4,6 +4,7 @@ let temp = document.getElementById("tem")
 let whename = document.getElementById("whename")
 let query = document.getElementById("search")
 let inte = document.getElementById("inte")
+let image src = "/js-weather-app/Image/"
 
 
 function formatAMPM(date) {
@@ -56,10 +57,10 @@ window.addEventListener("load", () => {
 
           if (form >= 5 && form <= 16) {
             if (id <= 800) {
-              image.src = "../image/sun.svg"
+              image.src = src+"sun.svg";
             }
             if (id == 801) {
-              image.src = "../image/clouds.svg"
+              image.src = src+"clouds.svg";
             }
             if (id == 802) {
               image.src = "../image/Onlyclouds.svg"
