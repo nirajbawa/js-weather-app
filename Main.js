@@ -35,10 +35,10 @@ window.addEventListener("load", () => {
 
       long = position.coords.longitude;
       lat = position.coords.latitude;
-//       const proxy = "https://cors-anywhere.herokuapp.com/";
-//       const proxy = "https://nirajbawa.github.io/js-weather-app/";
 
-      const api = `api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${long}&appid=130ace1fc10ddbbf672b273155bb2337`
+      const proxy = "https://nirajbawa.github.io/js-weather-app/";
+
+      const api = `${proxy}api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${long}&appid=130ace1fc10ddbbf672b273155bb2337`
 
 
       fetch(api).then((Response) => {
